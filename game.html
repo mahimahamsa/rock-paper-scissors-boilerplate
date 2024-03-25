@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h2> <span id="score1">0</span> - <span id="score2">0</span> </h2>
+    <div class="game">
+        <div class="you"> 
+            <p>You</p>
+            <div id="your-hand"></div>
+            <div class="buttons">
+                <img id="rock" class="your-button" src="https://github.com/mahimahamsa/rock-paper-scissors-boilerplate/blob/main/assets/rock-logo.png?raw=true" alt="">
+                <img id="paper" class="your-button" src="https://github.com/mahimahamsa/rock-paper-scissors-boilerplate/blob/main/assets/paper-logo.png?raw=true" alt="">
+                <img id="scissors" class="your-button" src="https://github.com/mahimahamsa/rock-paper-scissors-boilerplate/blob/main/assets/scissors-logo.png?raw=true" alt="">
+            </div>
+        </div>
+        <div id="vs"><img src="https://github.com/mahimahamsa/rock-paper-scissors-boilerplate/blob/main/assets/vs.png?raw=true" alt=""></div>
+        <div class="computer">
+            <p>Comp</p>
+            <div id="comp-hand"></div>
+            <div class="buttons buttons2">
+            </div>
+        </div>
+    </div>
+    <div id="result">
+        <div id="message"><p></p></div>
+        <div id="play-again-button"><p>Play Again</p></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
